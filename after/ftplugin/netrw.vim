@@ -1,10 +1,8 @@
-" vim-bepo - Plugin vim pour disposition de clavier bépo
-" Maintainer:       Micha Moskovic
-
-" save old 's' mapping to enable sort
-if !exists("s:s_map") "check needed to avoid mapping to remapped 's'
-	let s:s_map = maparg("s","n")
-endif
-execute "nnoremap <silent> <buffer> k " . s:s_map
+" in :e . - Fix ctsr, k to sort 
+" based on https://bepo.fr/wiki/Vim#.7E.2F.vim.2Fafter.2Fftplugin.2Fnetrw.vim_.28probl.C3.A8mes_avec_la_commande_:Ex.29
 nunmap <buffer> t
 nunmap <buffer> s
+nunmap <buffer> k
+nnoremap <buffer> t j
+nnoremap <buffer> s k
+nnoremap <buffer> k s
