@@ -36,4 +36,4 @@ Ce plugin suit la disposition standard, il est donc compatible avec de nombreux 
 
 ## Inspiration
 
-Ce plugin est inspiré, mais diffère en partie, de la reconfiguration partielle des touches du [wiki bépo](http://bepo.fr/wiki/Vim#Reconfiguration_partielle_des_touches).
+Ce plugin est inspiré de [vim-bepo de michamos](https://github.com/michamos/vim-bepo) et de la reconfiguration partielle des touches du [wiki bépo](http://bepo.fr/wiki/Vim#Reconfiguration_partielle_des_touches).
