@@ -9,15 +9,7 @@ Le plugin consiste essentiellement en un nombre minimal de redéfinitions de tou
 Les touches de direction, `hjkl` sur un clavier QWERTY, sont en revanche `ctsr` sur un clavier bépo, ce qui explique la nécessité de les redéfinir.
 En outre, certaines touches importantes sont peu accessibles en bépo, et elles sont déplacées également.
 
-![vim_0.1.gif](vim_0.1.gif "vim bépo 0.1")
-
-Source : [pdf](vim_0.1.pdf)
-
-<object data="vim_0.1.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="vim_0.1.pdf">
-        This browser does not support PDFs. Please download the PDF to view it: <a href="vim_0.1.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![vim_0.1.pdf](vim_0.1.gif)
 
 Enfin, de nombreux plugins redéfinissent les touches de direction et/ou `ctsr`.
 Les plugins `netrw` (inclus dans Vim) et [surround](https://github.com/tpope/vim-surround/) sont pris en charge automatiquement. La configuration requise pour d’autres plugins est reprise dans la documentation.
