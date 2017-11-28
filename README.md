@@ -11,7 +11,13 @@ En outre, certaines touches importantes sont peu accessibles en bépo, et elles 
 
 ![vim_0.1.gif](vim_0.1.gif "vim bépo 0.1")
 
-Source : [classic](vim_0.1.png), [typematrix](vim-bepo_typematrix.png), [ergodox](vim-bepo_ergodox.png)
+Source : [pdf](vim_0.1.pdf)
+
+<object data="vim_0.1.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="vim_0.1.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="vim_0.1.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 Enfin, de nombreux plugins redéfinissent les touches de direction et/ou `ctsr`.
 Les plugins `netrw` (inclus dans Vim) et [surround](https://github.com/tpope/vim-surround/) sont pris en charge automatiquement. La configuration requise pour d’autres plugins est reprise dans la documentation.
