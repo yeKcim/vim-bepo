@@ -79,3 +79,21 @@ noremap wo <C-w>s
 noremap wp <C-w>o
 noremap w<SPACE> :split<CR>
 noremap w<CR> :vsplit<CR>
+
+
+"è et ç comme raccourcis
+"" ———————————————————————————————
+" en mode insertion, èè → normal
+imap èè <ESC>
+" en mode normal, èè → insertion
+nmap èè :startinsert<cr>
+" en mode visuel, èè → normal
+vmap èè <ESC>
+" çç ⇔  Échap+:
+map çç <ESC>:
+imap çç <ESC>:
+
+" Touche MapLeader :
+" ———————————————————————————————
+let mapleader = "à"
+
