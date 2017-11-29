@@ -9,7 +9,7 @@ Le plugin consiste essentiellement en un nombre minimal de redéfinitions de tou
 Les touches de direction, `hjkl` sur un clavier QWERTY, sont en revanche `ctsr` sur un clavier bépo, ce qui explique la nécessité de les redéfinir.
 En outre, certaines touches importantes sont peu accessibles en bépo, et elles sont déplacées également.
 
-Comme les touches à, è et ç sont inutilisé, on en profite pour leur assigner des fonctions :
+Comme les touches à, è et ç sont inutilisées, on en profite pour leur assigner des fonctions :
 * `ç` `ç` rapide équivaut à `Esc` `:`
 * `è` `è` rapide équivaut à `Esc` en mode *Insertion* ou *Visuel* et `i` en mode *Normal* 
 * `à` est défini comme mapleader
