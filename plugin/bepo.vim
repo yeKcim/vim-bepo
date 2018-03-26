@@ -96,4 +96,4 @@ imap çç <ESC>:
 " Touche MapLeader :
 " ———————————————————————————————
 let mapleader = "à"
-
+let g:mapleader = "à"
